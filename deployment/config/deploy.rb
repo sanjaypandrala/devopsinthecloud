@@ -62,7 +62,7 @@ namespace :deploy do
     run "sudo service httpd stop"
   end
 
-  desc "Restart my Application"
+  desc "Restart my new Application"
   task :restart, :roles => :app do
     run "sudo service httpd restart"
   end
